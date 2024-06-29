@@ -1,0 +1,76 @@
+/* global css */
+
+body {
+  font-family: "PT Sans Caption", sans-serif;
+  background-color: rgb(247, 236, 222);
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+}
+
+.bookmarker{
+  position: relative;
+}
+
+.bookmarkerbg{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 23%;
+    height: 25%;
+    background-color: #fec260;
+    z-index:-1;
+}
+
+h2 {
+  font-family: "Righteous", sans-serif;
+  background-color: linear-gradient (green, rgb(155, 203, 83));
+
+  background: -webkit-linear-gradient(#3b890a, #9bca36);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+hr {
+  border: 1px dotted #000000;
+}
+
+th{
+  text-align: center;
+}
+
+.subBut{
+  background-color: rgb(187, 65, 32) ;
+}
+
+.td{
+  text-align: center;
+}
+
+.bookmark-body h2{
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.circles span:nth-child(1) {
+  background-color: #f15f5d;
+}
+.circles span:nth-child(2) {
+  background-color: #febe2e;
+}
+.circles span:nth-child(3) {
+  background-color: #4db748;
+}
+.circles span {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
